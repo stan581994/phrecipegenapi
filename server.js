@@ -1,7 +1,10 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 const port = 5000;
 const recipes = require("./recipes");
+
+app.use(cors());
 
 app.get("/recipe/all", (req, res) => {
   res.json(recipes);
