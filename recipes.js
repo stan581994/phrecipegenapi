@@ -211,6 +211,32 @@ const recipes = [
     imageUrl: "https://panlasangpinoy.com/wp-content/uploads/2009/06/Turon.jpg",
     category: "dessert",
   },
+  {
+    dishName: "Tapsilog",
+    ingredients: [
+      "500g beef sirloin, thinly sliced",
+      "1/4 cup soy sauce",
+      "3 tablespoons calamansi juice (or lemon juice)",
+      "4 cloves garlic, minced",
+      "2 tablespoons sugar",
+      "1/2 teaspoon black pepper",
+      "3 cups cooked garlic fried rice (sinangag)",
+      "4 fried eggs (sunny-side-up)"
+    ],
+    instructions: [
+      "In a bowl, combine soy sauce, calamansi juice, garlic, sugar, and black pepper. Mix well.",
+      "Marinate the beef slices in the mixture for at least 1 hour or overnight for best results.",
+      "Heat a pan over medium heat and cook the marinated beef in batches until browned and tender. Set aside.",
+      "Prepare garlic fried rice by sautéing minced garlic in a pan with oil until golden. Add cold, cooked rice and stir-fry until evenly coated with garlic. Season with salt.",
+      "Fry the eggs sunny-side-up.",
+      "Assemble the dish by plating the beef tapa, garlic fried rice, and fried egg together. Serve hot."
+    ],
+    preparationTime: "10 minutes",
+    cookingTime: "20 minutes",
+    servingSize: "4 servings",
+    imageUrl: "https://panlasangpinoy.com/wp-content/uploads/2015/03/tapsilog-recipe.jpg",
+    category: "breakfast"
+}
 ];
 
 module.exports = recipes;
