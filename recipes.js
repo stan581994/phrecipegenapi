@@ -234,7 +234,7 @@ const recipes = [
     preparationTime: "10 minutes",
     cookingTime: "20 minutes",
     servingSize: "4 servings",
-    imageUrl: "https://panlasangpinoy.com/wp-content/uploads/2015/03/tapsilog-recipe.jpg",
+    imageUrl: "https://panlasangpinoy.com/wp-content/uploads/2014/12/Tapsilog-1.jpg",
     category: "breakfast"
 }
 ];
